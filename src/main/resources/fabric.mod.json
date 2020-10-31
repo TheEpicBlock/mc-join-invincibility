@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mc-join-invincibility",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "mc join invincibility",
+  "description": "Gives the player invincibility until they move",
   "authors": [
-    "Me!"
+    "TheEpicBlock"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/TheEpicBlock/mc-join-invincibility/blob/master/README.md",
+    "sources": "https://github.com/TheEpicBlock/mc-join-invincibility"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "LGPL",
+  "icon": "assets/mc-join-invincibility/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "nl.theepicblock.mcjoininvincibility.McJoinInvincibility"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mc-join-invincibility.mixins.json"
   ],
 
   "depends": {
