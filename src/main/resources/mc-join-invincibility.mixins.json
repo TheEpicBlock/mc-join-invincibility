@@ -4,6 +4,9 @@
   "package": "nl.theepicblock.mcjoininvincibility.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "PlayerMoveAccessor",
+    "ServerPlayerEntityMixin",
+    "ServerPlayNetworkHandlerMixin"
   ],
   "injectors": {
     "defaultRequire": 1
